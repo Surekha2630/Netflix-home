@@ -1,0 +1,157 @@
+/* Style the overall website */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 203, 214);
+    color: #fff;
+  }
+  
+  /* Style the header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  
+  }
+  
+  nav a:hover {
+    text-decoration:underline;
+    color: #fefcfc;
+  }
+  
+  /* Style the hero section */
+  .hero {
+    background-image: url('movie2.gif');
+    background-size:cover;
+    background-position: center;
+    height: 500px;
+  }
+  
+  .hero-content {
+    text-align: center;
+    padding: 100px 0;
+    color:aliceblue;
+  }
+  
+  .hero h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  
+  .hero .btn {
+    padding: 10px 20px;
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the popular movies section */
+  .popular-movies {
+    padding: 20px;
+  }
+  
+  .popular-movies h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .movie-card {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .movie-card .movie-info {
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .movie-card .movie-info h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .movie-card .movie-info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Style the popular TV shows section */
+  .popular-tv-shows {
+    padding: 20px;
+  }
+  
+  .popular-tv-shows h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .tv-shows {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .tv-show-card {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .tv-show-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .tv-show-card .tv-show-info {
+    padding: 10px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .tv-show-card .tv-show-info h5 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .tv-show-card .tv-show-info p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
